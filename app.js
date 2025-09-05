@@ -37,6 +37,7 @@ function verificarChute() {
         limparCampo();
     }
 }
+// função para gerar numero aleatorio
 function gerarNumeroAleatorio() {
     let numeroEscolhido = parseInt(Math.random() * numeroLimite +1);
     let quantidadeDeElementosNaLista = listaDeNumerosSorteados.length;
